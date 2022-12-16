@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-CMD ["echo","hello gitland"]
+CMD ["echo","hello world"]
