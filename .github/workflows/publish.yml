@@ -13,6 +13,6 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: build image
         run: |
-          docker build . -t ghcr.io/309theddge/registry-test:latest
-          docker run ghcr.io/309theddge/registry-test:latest
-          docker push ghcr.io/309theddge/registry-test:latest
+          docker build . -t ghcr.io/309theddge/registry-test/test:latest
+          docker run ghcr.io/309theddge/registry-test/test:latest
+          docker push ghcr.io/309theddge/registry-test/test:latest
